@@ -37,7 +37,7 @@
     <script>
         function redirectNous(event) {
             document.getElementById("app").innerHTML = `
-            <div class="info-grid">
+          
                                <h1 class="sub-body style="color: white;">Nous</h1>
                                <p class="sub-body">
                                Nous sommes jumeaux, nous sommes en 1ère année de cycle ingénieur du numérique
@@ -62,28 +62,13 @@
                                passant par une alternance.
                                <br><br>
                                </p>
-                               </div>
+                            
 
                                 <style>
                                     .sub-body {
                                         margin-left: 200px;
                                         margin-right: 200px;
                                     }
-
-                                    .info-grid {
-                                                        display: grid;
-                                                        grid-template-columns: max-content auto;
-                                                        column-gap: 2rem;
-                                                        row-gap: 1rem;
-
-                                                        width: 100%;
-}
-
-                                    @media (max-width: 768px) {
-                                                        .info-grid {
-                                                            grid-template-columns: 1fr;
-                                                        }
-}
                                 </style>
                             `;
         }
@@ -383,6 +368,7 @@
     }
 
 </style>
+
 
 
 
